@@ -1,0 +1,430 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+button {
+    cursor: pointer;
+    transition-duration: 0.3s;
+}
+
+
+.navbar {
+    background-color: #4A1831;
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    z-index: 99;
+}
+
+.navbar ul {
+    text-align: center;
+
+}
+
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 10px 15px;
+}
+
+.navbar ul li a {
+    color: #FED7AC;
+    text-decoration: none;
+}
+
+.navbar ul li a:hover {
+    color: white;
+    padding:0px;
+}
+
+/* main */
+.landing-content {
+    height: 550px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    position: absolute;
+    left: 50px;
+    top: 40px;
+}
+
+.landing-page {
+    background-image: url(images/image1.jpeg);
+    height: 610px;
+    width: 100%;
+    background-size: cover;
+}
+
+.landing-logo {
+    background-image: url(images/logo.png);
+    height: 200px;
+    width: 200px;
+}
+
+.landing-text {
+    font-size: 4.5rem;
+    font-weight: bold;
+    color: #FED7AC;
+    margin-top: -20px;
+}
+
+.landing-text2 {
+    color: #FED7AC;
+    display: inline-block;
+    font-size: 1.4rem;
+    font-weight: 200;
+    margin-top: 20px;
+}
+
+.landing-page button {
+    background-color: #FED7AC;
+    color: #4A1831;
+    border: none;
+    border-radius: 50px;
+    width: 200px;
+    padding: 10px 15px;
+    font-weight: bold;
+}
+.landing-page button:hover{
+    background-color: #ffffff;
+    color: #4A1831;
+}
+
+/* MENU SECTION */
+.menu-content {
+    height: 350px;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px 0px;
+    background-color: #FED7AC;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+.menu-text1 {
+    color: #4A1831;
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+.menu-text2 {
+    color: #4A1831;
+    font-size: 1.2rem;
+    font-weight: bold;
+    width: 50%;
+    text-align: center;
+}
+
+.menu-content button {
+    background-color: #4A1831;
+    color: #FED7AC;
+    border: none;
+    border-radius: 50px;
+    width: 200px;
+    padding: 10px 15px;
+    font-weight: bold;
+    transition-duration: 0.3s;
+}
+
+.menu-content button:hover{
+    background-color: #ffffff;
+    color: #4A1831;
+}
+
+
+
+/* food-image */
+.food-image {
+    background-image: url(images/image2.jpeg);
+    height: 250px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* about-us */
+.about-us {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 500px;
+    background-color: #FED7AC;
+}
+
+.about-us-content {
+    height: 300px;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+
+.about-us-image {
+    background-image: url(images/image3.jpeg);
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+}
+
+.about-us-text1 {
+    font-size: 3.5rem;
+    font-weight: bold;
+    color: #4A1831;
+}
+
+.about-us-text2 {
+    font-size: 1.5rem;
+    color: #4A1831;
+}
+
+.about-us button {
+    background-color: #4A1831;
+    color: #FED7AC;
+    border: none;
+    border-radius: 50px;
+    width: 200px;
+    padding: 10px 15px;
+    font-weight: bold;
+}
+.about-us button:hover{
+    background-color: #ffffff;
+    color: #4A1831;
+}
+
+/* discount */
+.discount {
+    height: 500px;
+    background-color: #FED7AC;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.discount-image {
+    background-image: url(images/image4.png);
+    height: 500px;
+    width: 800px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: -100px;
+
+}
+
+.discount-text1 {
+    font-size: 8rem;
+    font-weight: bold;
+    color: #E63955;
+    position: relative;
+    left: 100px;
+    margin-bottom: -10px;
+}
+
+.discount-text2 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #4A1831;
+    position: relative;
+    left: 100px;
+    margin-bottom: -10px;
+
+}
+
+.discount-text3 {
+    font-size: 4rem;
+    font-weight: bolder;
+    color: #6DC5AD;
+    width: 100%;
+    position: relative;
+    left: 100px;
+    margin-bottom: 10px;
+}
+
+.discount-content {
+    position: relative;
+    top: -220px;
+}
+
+
+/* offers  */
+
+.offers {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 500px;
+    background-color: #4A1831;
+}
+
+.offers-content {
+    height: 300px;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+
+.offers-image {
+    background-image: url(images/image5.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 450px;
+    width: 450px;
+}
+
+.offers-text1 {
+    font-size: 3.5rem;
+    font-weight: bold;
+    color: #FED7AC;
+}
+
+.offers-text2 {
+    font-size: 1.5rem;
+    color: #FED7AC;
+}
+
+.offers button {
+    background-color: #FED7AC;
+    color: #4A1831;
+    border: none;
+    border-radius: 50px;
+    width: 200px;
+    padding: 10px 15px;
+    font-weight: bold;
+}
+
+.offers button:hover{
+    background-color: #ffffff;
+    color: #4A1831;
+}
+
+/* email updates */
+
+.email-updates {
+    height: 500px;
+    background-color: #FED7AC;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.email-updates-text1 {
+    color: #4A1831;
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+.email-updates-text2 {
+    width: 700px;
+    text-align: center;
+}
+
+.email-subscribe {
+    position: relative;
+    width: 550px;
+}
+
+.email-updates input {
+    height: 15px;
+    width: 80%;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 50px;
+    border: none;
+}
+
+
+.email-updates button {
+    position: relative;
+    bottom: 35px;
+    left: 75%;
+    padding: 10px 10px;
+    background-color: #4A1831;
+    color: #FED7AC;
+    border: none;
+    border-radius: 50px;
+    width: 200px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.email-updates button:hover{
+    background-color: #ffffff;
+    color: #4A1831;
+    border: 1px solid #4A1831
+}
+
+
+/* footer */
+
+footer {
+    height: 350px;
+    background-color: #4A1831;
+    color: #FED7AC;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.footer-about {
+    width: 20%;
+}
+
+.footer-about .footer-text1 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 0px 0px 25px 0px;
+}
+
+footer i {
+    border: 1px solid #FED7AC;
+    background-color: #FED7AC;
+    color: #4A1831;
+    font-size: 1.5rem;
+    border-radius: 50%;
+    padding: 5px;
+    margin: 20px 20px 0px 0px;
+    cursor: pointer;
+}
+
+.fa-facebook-f {
+    padding: 5px 10px;
+}
+
+/* footer links */
+.links3 {
+    margin-bottom: 105px;
+}
+
+.footer-links1 h3 {
+    padding: 15px 10px;
+}
+
+.footer-links1 ul li {
+    list-style: none;
+    padding: 10px 10px;
+    display: block;
+}
+
+.footer-links1 ul li a {
+    color: #FED7AC;
+    text-decoration: none;
+    display: block;
+}
+
+.footer-links1 li a:hover {
+    text-decoration: underline;
+}
